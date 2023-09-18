@@ -1,0 +1,72 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #d5d5d5;
+}
+main{
+    width: 600px;
+    height: 500px;
+    /* background-color: rgb(210, 210, 210); */
+}
+.navbar{
+    width: 600px;
+    height: 70px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px 7px 0 0;
+    color: white;
+    background-color: rgb(255, 36, 36);
+}
+.navbar p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.weekdays-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 600px;
+    height: 30px;
+    /* background-color: gray ; */
+    text-align: center;
+    gap: 2px;
+    /* padding-bottom: 3px; */
+}
+.day{
+    text-align: center;
+    line-height: 1px;
+    background-color: rgb(195, 194, 194);
+}
+
+.dates-grid{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    text-align: center;
+    gap: 2px;
+
+}
+
+.bright-bg{
+    background-color: white;
+}
+.grey-bg{
+    background-color: rgb(236, 236, 236);
+}
+.ljus{
+    color: rgba(0, 0, 0, 0.309);
+}
+.japan{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #ff3333;
+    border-radius: 50%;
+}
